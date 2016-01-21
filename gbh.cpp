@@ -199,6 +199,7 @@ bool GraphBasedHierarchicalSegmentation(const std::vector<cv::Mat> &frames, floa
         delete im[i];
     }
     delete[] im;
+    return true;
 }
 
 void test_api() {
